@@ -47,12 +47,11 @@ class BaseModel:
         all content has the class dictionary (attributes).
 
         """
-        return ("[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__))
+        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
         """ Update the value of update_at with the datetime current"""
         self.updated_at = datetime.now()
-        return (self.updated_at)
 
     def to_dict(self):
         """
@@ -65,4 +64,4 @@ class BaseModel:
         new_dict['__class__'] = type(self).__name__
         new_dict['created_at'] = self.created_at.isoformat()
         new_dict['updated_at'] = self.updated_at.isoformat()
-        return (new_dict)
+        return new_dict
