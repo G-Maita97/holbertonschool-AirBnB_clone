@@ -24,7 +24,7 @@ class BaseModel:
         return ("[{}] ({}) {}".format(type(self).__name__, self.id, self.__dict__))
 
     def save(self):
-        self.updated_at = datetime.datetime.now()
+        self.updated_at = datetime.now()
         return (self.updated_at)
 
     def to_dict(self):
