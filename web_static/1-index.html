@@ -1,5 +1,6 @@
 <!–File 1 -index.html–>
 <!– Alumno: Maita Gustavo–>
+
 <!DOCTYPE html>
     <hmtl lang="EN" dir="ltr">
         <head>
@@ -7,19 +8,44 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
             <meta name="description" content="AirBnB Clone - Web Static">
             <title> AirBnb Clone </title>
+            <style type="text/css">
+                body{
+                    margin: 0;
+                    padding: 0; 
+                }
+
+                header{
+                    /* 
+                        La position del header mayormente es relativa ya que dependiendo 
+                        el manejo del usuario siempre se verá en la parte superior de la pagina. 
+                    */
+                    background-color: #FF0000;               
+                    height: 70px;
+                    width: 100%;
+                    position: relative;
+                }
+
+                footer{
+                    /*
+                        1.Tips para centrar vertical y horizontalmente un texto. Link: https://n9.cl/2ko0h
+                        2.La propiedad "Bottom" afecta la posición vertical de un elemento posicionado. Esta 
+                        propiedad no tiene ningún efecto sobre elementos no posicionados.(valor 0 para pie de pag)
+                        3.La posicion del footer mayormente es absoluta ya que siempre se encontrara al final de la pagina. 
+                    */
+                    background-color: #00FF00;
+                    height: 60px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    bottom: 0;
+                }
+            </style>
         </head>
-        <body style="margin: 0; padding: 0;">
-        </body>
-        <header style="background-color: #FF0000; height: 70px; width: 100%; position: relative;">
-            <!– La position del header mayormente es relativa ya que dependiendo el manejo del usuario siempre se verá en la parte superior de la pagina. –>
-        </header>
-        <footer style="background-color: #00FF00; height: 60px; width: 100%; display: flex; align-items: center; justify-content: center; position: absolute; bottom: 0;">
-            <!–
-                1.Tips para centrar vertical y horizontalmente un texto. Link: https://n9.cl/2ko0h
-                2.La propiedad "Bottom" afecta la posición vertical de un elemento posicionado. Esta 
-                propiedad no tiene ningún efecto sobre elementos no posicionados.(valor 0 para pie de pag)
-                3.La posicion del footer mayormente es absoluta ya que siempre se encontrara al final de la pagina. 
-            –>
+        <body></body>
+        <header></header>
+        <footer>
             <p>Holberton School</p>
         </footer>
     </hmtl>
