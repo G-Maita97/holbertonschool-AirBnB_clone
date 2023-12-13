@@ -1,0 +1,16 @@
+footer{
+    /*
+        1.Tips para centrar vertical y horizontalmente un texto. Link: https://n9.cl/2ko0h
+        2.La propiedad "Bottom" afecta la posición vertical de un elemento posicionado. Esta 
+        propiedad no tiene ningún efecto sobre elementos no posicionados.(valor 0 para pie de pag)
+        3.La posicion del footer mayormente es absoluta ya que siempre se encontrara al final de la pagina. 
+    */
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}

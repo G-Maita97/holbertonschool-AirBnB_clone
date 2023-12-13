@@ -1,0 +1,10 @@
+header{
+    /* 
+        La position del header mayormente es relativa ya que dependiendo 
+        el manejo del usuario siempre se verá en la parte superior de la pagina. 
+    */
+    background-color: #FF0000;               
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
