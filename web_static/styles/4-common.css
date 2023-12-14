@@ -6,7 +6,7 @@ body{
 }
 
 div .container{
-    display: table;
+    display: table;                       /*Para centrar horizontalmente*/
     margin: 0 auto;
     max-width: 1000px;
     margin-top: 30px;
