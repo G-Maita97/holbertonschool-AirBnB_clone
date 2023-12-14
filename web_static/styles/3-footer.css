@@ -8,8 +8,9 @@ footer{
     background-color: #FFFFFF;
     height: 60px;
     width: 100%;
+    border-top-width: 1px;
     border-top-style: solid;
-    border-top-color: 1px #CCCCCC;
+    border-top-color: #D5D8DC;
     display: flex;
     align-items: center;
     justify-content: center;

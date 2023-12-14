@@ -1,4 +1,4 @@
-header{
+header {
     /* 
         La position del header mayormente es relativa ya que dependiendo 
         el manejo del usuario siempre se verá en la parte superior de la pagina. 
@@ -7,8 +7,9 @@ header{
     height: 70px;
     width: 100%;
     position: relative;
+    border-bottom-width: 1px;
     border-bottom-style: solid;                     /*Propiedad que permite cambiar de color el border-bottom (Especifica un borde sólido)*/
-    border-bottom-color: 1px #CCCCCC;             /*Especifica el color del borde inferior. El valor predeterminado es el color del texto.*/
+    border-bottom-color: #D5D8DC;             /*Especifica el color del borde inferior. El valor predeterminado es el color del texto.*/
     background-image: url('../images/logo.png');    /*te permite colocar la imagen detrás de cualquier elemento HTML*/
     background-size: auto;                          /* Ajusta a la imagen insertada con "background-image" el width y height a tamaño deseado (auto = se amolda)*/
     background-repeat: no-repeat;                   /* Evita que la imagen se repita ya que al usar background-image la iamgen se repite 4 veces, afecta a la imagen insertada con "background-image"*/
