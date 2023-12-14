@@ -11,7 +11,7 @@
 
 .filters button{
     font-size: 18px;
-    background-color: #FF5A5F;
+    background-image: linear-gradient(180deg, red, #E74C3C);        /*link: https://www.w3schools.com/cssref/func_linear-gradient.php*/
     height: 51px;
     width: 20%;
     border-style: none;
