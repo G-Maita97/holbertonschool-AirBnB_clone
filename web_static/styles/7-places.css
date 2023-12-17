@@ -1,0 +1,48 @@
+section.places h1 {
+    position: absolute;
+    top: 150px;
+    left: 215px;
+    font-size: 30px;
+}
+
+.places article h2#home {
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    width: 350px;
+    padding: 20px;
+    margin: 20;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+.places article h2#house {
+    position: absolute;
+    top: 250px;
+    left: 660px;
+    width: 350px;
+    padding: 20px;
+    margin: 20;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+.places article h2#suite {
+    position: absolute;
+    top: 370px;
+    left: 440px;
+    width: 350px;
+    padding: 20px;
+    margin: 20;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+.places article h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Alinear en la parte superior */
+    
+}
+

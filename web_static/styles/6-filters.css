@@ -83,6 +83,7 @@ h4 {
     border: 1px solid #DDDDDD;
     border-radius: 10px;
     position: absolute;
+    z-index: 1;
 }
 
 .popover ul {
